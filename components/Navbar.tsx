@@ -5,7 +5,7 @@ import nav from '../public/navlogo.png';
 
 const Navbar = () => {
   return (
-    <div className='w-full flex-col flex '>
+    <div className='w-full  cursor-pointer flex-col flex '>
         <div className='flex justify-end p-2 text-xl font-bold text-white w-full bg-[#131111de]'>SONY</div>
         <div className='bg-slate-100 w-full justify-between flex items-center p-4'>
             {/* left section */}
